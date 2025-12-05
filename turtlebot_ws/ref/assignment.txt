@@ -1,0 +1,9 @@
+제출방식
+- turtlebot에서 ros2 topic list, ROS_DOMAIN_ID 확인의 실행결과 (사진)
+- 같은 네트워크의 다른 PC에서 ros2 topic list, ROS_DOMAIN_ID 확인 결과 및 ros2 topic
+echo의 결과 (사진)
+- 위 사진이 포함된 보고선
+- 이미지 제출 추가점수 없음
+1. 터틀봇에서 domain bridge를 통해, 특정 토픽만 PC에서 보일 수 있게 구성하세요
+(1) 터틀봇의 domain id를 본인 팀번호, PC에서 domain id를 본인 팀번호 + 10으로 설정
+(2) domain bridge를 터틀봇에 구성하여, PC에서 배터리 관련 토픽만 보일 수 있게 설정
