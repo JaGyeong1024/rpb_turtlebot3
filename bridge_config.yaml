@@ -1,0 +1,6 @@
+name: turtlebot_bridge
+from_domain: 8
+to_domain: 18
+topics:
+  /battery_state:
+    type: sensor_msgs/msg/BatteryState
