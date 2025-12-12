@@ -1,6 +1,0 @@
-name: bridge1
-from_domain: 1
-topics:
-  robot1/pub3:
-    type: std_msgs/msg/String
-    to_domain: 0
